@@ -20,8 +20,8 @@ Here are a few things that InMemDB does well:
 
 ## Usage:
 
-'''python
+```python
 from inmemdb.InMemDB import InMemDB
 db = InMemDB()
 db.createTableFromDF(tableName='table_name',df=pandas.DataFrame)
-'''
+```
