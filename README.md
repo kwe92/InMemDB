@@ -1,4 +1,6 @@
 # InMemDB: powered by sqlite
+[![PyPI version](https://badge.fury.io/py/InMemDB.svg)](https://badge.fury.io/py/InMemDB)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## What it is?
 
@@ -25,3 +27,7 @@ from inmemdb.InMemDB import InMemDB
 db = InMemDB()
 db.createTableFromDF(tableName='table_name',df=pandas.DataFrame)
 ```
+
+## Demo:
+
+- https://github.com/kwe92/InMemDB-Demo/blob/main/inmemdb_demo.ipynb
