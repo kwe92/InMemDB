@@ -123,7 +123,7 @@ class InMemDB():
         '''
         Lists the current table names in the database.
         '''
-        return self._conn.tableNames()
+        return self._conn.table_names()
 
 
 def _errorMsg(tableName: str) -> str:
