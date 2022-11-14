@@ -1,4 +1,4 @@
-# InMemoryDatabase: powered by sqlite
+# InMemDB: powered by sqlite
 
 ## What it is?
 
