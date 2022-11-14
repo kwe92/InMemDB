@@ -18,10 +18,9 @@ Here are a few things that InMemDB does well:
 - Can be used to Extract, Transform, and Load data
 - Those who are more familar with SQL can still manipulate the powerful pandas DataFrame seamlessly
 
-Example:
+## Usage:
 
 '''python
-
 from inmemdb.InMemDB import InMemDB
 db = InMemDB()
 db.createTableFromDF(tableName='table_name',df=pandas.DataFrame)
